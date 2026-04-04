@@ -1,0 +1,19 @@
+{
+  "name": "stay-active",
+  "version": "1.0.0",
+  "description": "Simulates a Control key press every 5 minutes during work hours",
+  "main": "dist/stayActive.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/stayActive.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/node": "^25.5.2",
+    "robotjs": "^0.7.0",
+    "typescript": "^6.0.2"
+  }
+}
